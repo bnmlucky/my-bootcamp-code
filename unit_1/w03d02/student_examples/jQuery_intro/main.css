@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+:root {
+  --soft-pink: #edc7b7;
+  --lightest-pink: #eee2dc;
+  --warm-violet: #bab2b5;
+  --dark-imperial-blue: #123c69;
+  --ruby: #ac3b61;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  padding: 1em 0;
+  font-size: 2em;
+  color: ghostwhite;
+  margin: 0;
+}
+html {
+  background: var(--lightest-pink);
+}
+
+body {
+  margin: 0;
+}
+
+.meat {
+  background: var(--ruby);
+}
+
+.dairy {
+  background: var(--dark-imperial-blue);
+}
+
+.vegetable {
+  background: var(--warm-violet);
+}
+
+.fruit {
+  background: var(--soft-pink);
+}
+
+.candy {
+  background: var(--warm-violet);
+}
+
+.drinks {
+  background: var(--soft-pink);
+}
+
+div {
+  min-height: 100px;
+  background: white;
+}
+
+img {
+  width: 100%;
+}

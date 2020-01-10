@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pokemon</title>
+    <style type="text/css">
+      body {
+        color: blanchedalmond;
+        background-color: steelblue;
+      }
+      .capitalize {
+        text-transform: capitalize;
+      }
+      h1 {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 3em;
+        font-weight: bolder;
+        background-color: #b77d5c;
+        padding: 5px;
+        border-radius: 15px;
+        border: 1px solid #fdc2c8;
+      }
+      h2 {
+          text-align: center;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #eb737c;
+        font-size: 2.2em;
+        margin: 20px;
+        padding: 15px;
+        background-color: #778377;
+        border: 1px solid #a4a89d;
+        border-radius: 15px;
+        text-transform: capitalize;
+      }
+      img {
+          width: 50%;
+          height: 50%;
+          margin-left: 350px;
+          padding: 10px;
+          border: 1px solid #f2f8f7;
+          border-radius: 15px;
+      }
+    a {
+        text-decoration: none;
+        color: #d6dde3;
+        font-size: 2em;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px;
+        margin: 40px;
+        border: 1px solid #f0eaee;
+        border-radius: 15px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Gotta Catch'Em All</h1>
+    <h2><%=`${character.name}`%></h2>
+
+    <img src="<%= `${character.img}` + ".jpg"%>" />
+
+  </br>
+    <a href= <%= "/pokemon" %>> Back </a>
+  </body>
+</html>

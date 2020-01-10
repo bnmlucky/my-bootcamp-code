@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border: 1px solid;
+}
+
+img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}

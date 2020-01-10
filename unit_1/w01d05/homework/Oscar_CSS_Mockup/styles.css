@@ -1,0 +1,140 @@
+.logoimage {
+    float: left;
+}
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    color: grey;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: rgb(34, 38, 43);
+    float: right;
+    font-size: 20px;
+    padding: 30px;
+    display: block;
+}
+
+.topnavitem {
+   display: block;
+   text-align: center;
+   font-size: 16px;
+   
+}
+
+header img {
+  height: 90%;
+  width: 100%;
+}
+
+.concierge,
+.doctor,
+.foryou {
+    display: inline-block;
+    width: 30%;
+    padding: 1%;
+    margin: 1%;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid lightgrey;
+    height: 350px;
+    border-radius: 20px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: grey;
+}
+
+button {
+    font-size: 12px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.concierge {
+    background-image: url(images/concierge.jpg);
+}
+
+.doctor {
+    background-image: url(images/doctor.jpg);
+}
+
+.foryou {
+    background-image: url(images/business.jpg);
+    background-repeat: no-repeat;
+}
+
+h5 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+    color: lightgrey;
+}
+
+.cta {
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.t-a {
+   display: inline-block;
+   width: 30%;
+   margin: 100px 100px 100px 100px;
+   height: 60px; 
+   font-size: 24px;
+   border-radius: 5px;
+}
+
+.t-a a {
+    text-decoration: none;
+    color: blue;
+}
+
+.t-a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.t-a a:hover {
+    color: white;
+}
+
+footer {
+    border-top: 1px solid lightgrey;
+}
+
+.products,
+.features,
+.company,
+.resources, 
+.legal {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 18%;
+    list-style-type: none;
+    color: darkgray;
+    line-height: 30px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.column {
+    color: #2F4F4F;
+    line-height: 50px;
+}

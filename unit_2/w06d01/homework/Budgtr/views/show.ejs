@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/normalize.css" />
+    <link rel="stylesheet" href="/skeleton.css" />
+    <title>Show page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><%= budgetItem.name %></h1>
+      <button><a href="/budgets">Back</a></button>
+      <p>date</p>
+      <p><%=budgetItem.date%></p>
+      <p>name</p>
+      <p><%= budgetItem.name%></p>
+      <p>from</p>
+      <p><%=budgetItem.from %></p>
+      <p>amount</p>
+      <p><%= budgetItem.amount%></p>
+      <p>tags</p>
+      <p><%= budgetItem.tags%></p>
+    </div>
+  </body>
+</html>

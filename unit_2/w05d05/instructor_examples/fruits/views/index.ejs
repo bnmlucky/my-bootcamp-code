@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+
+  <body>
+    <h1>Fruits index page</h1>
+    <% for (let i = 0; i < fruits.length; i++) { %>
+    <a href=<%=`/fruits/${i}`%> >
+        <p><%= fruits[i].name %></p>
+    </a>
+    <% } %>
+  </body>
+</html>

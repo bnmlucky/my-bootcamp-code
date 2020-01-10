@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+body {
+  background-color: #a3a5a8;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #02060b;
+  border: 1px solid #f7f6f4;
+  margin: 2% 25%;
+  padding: 1%;
+  border-radius: 15px;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #b10207;
+}
+
+.btn {
+  color: #401c04;
+  line-height: 3em;
+  margin: 1%;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 2px solid #31465a;
+  font-size: 0.9em;
+}
+
+h3 {
+  color: #5f010a;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.3em;
+}
+
+.infoDiv {
+  text-align: left;
+  border: 1px solid #f7f6f4;
+  margin: 2% 20%;
+  padding: 1%;
+  border-radius: 15px;
+}

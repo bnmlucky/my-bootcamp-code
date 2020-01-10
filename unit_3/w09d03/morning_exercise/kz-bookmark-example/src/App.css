@@ -1,0 +1,40 @@
+h2 {
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+section {
+  flex: 1;
+}
+
+table {
+  border: 1px solid;
+  margin: 0 auto;
+  padding: 1em;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 1em;
+  display: block;
+}

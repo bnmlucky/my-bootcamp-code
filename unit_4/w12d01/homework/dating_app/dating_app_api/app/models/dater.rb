@@ -1,0 +1,2 @@
+class Dater < ApplicationRecord
+end

@@ -1,0 +1,76 @@
+body {
+    background-color: #131e1d;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #78a8bc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px 120px 30px 120px;
+    border: 2px solid #974c18;
+    line-height: 2em;
+    border-radius: 15px;
+}
+nav {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid #974c18;
+    line-height: 3em;
+    margin: 30px 120px;
+    border-radius: 15px;
+}
+nav a {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #dfdbde;
+}
+.container {
+    background-color: #012b4d;
+    margin: 7%;
+    border-radius: 15px;
+    border: 2px solid #d8d9d1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+.tile {
+  flex-basis: 1;
+  text-align: center;
+  margin: 2%;
+}
+
+.tile a {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #dfdbde;
+}
+
+img {
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid #dfdbde;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+    color: #e2cdb5;
+    margin: 20px 150px;
+    border-radius: 15px;
+    border: 1px solid #debabe;
+}
+form {
+    text-align: center;
+    color: white;
+}
+input {
+    margin: 15px;
+}

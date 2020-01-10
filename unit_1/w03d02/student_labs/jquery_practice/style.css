@@ -1,0 +1,10 @@
+body {
+  background-color: azure;
+}
+
+.couleur {
+  background: dimgrey;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}

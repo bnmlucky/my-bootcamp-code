@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>KZ | Pokedex App</title>
+</head>
+
+<body>
+  <header>
+    <h1>Pokedex</h1>
+    <h4><a href="/pokemon/new">Add New Pokemon</a></h4>
+  </header>
+  <main>
+    <section>
+      <ul>
+        <% data.forEach((pokemon, index) => { %>
+        <li><a href="/pokemon/<%= index %>"><img src=<%= pokemon.img %>></a></li>
+        <% }); %>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <h5>Coded by KZ.</h5>
+  </footer>
+</body>
+
+</html>

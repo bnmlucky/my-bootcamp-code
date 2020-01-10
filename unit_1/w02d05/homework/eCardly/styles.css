@@ -1,0 +1,109 @@
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: repeat-x;
+  background-color: #d6d6d6;
+  font-family: Helvetica;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+a {
+  color: #ff3300;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+h1 > a {
+  background-image: url("images/logo.png");
+  box-sizing: border-box;
+  margin: auto;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.headerimage {
+  box-sizing: border-box;
+  height: 216px;
+  width: 213px;
+  display: block;
+}
+
+/* I cannot figure out how to make the header horizontally aligned with the image centered */
+/* the flex-direction is by default row, why is my heade behaving as a column? */
+/* what properties should I apply for my header to take the whole width of the screen and the height of the logo image?*/
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+h2 > a {
+  color: black;
+  text-decoration: none;
+}
+/* I cannot apply flexbox correctly to position my main elements on the screen.
+/* I feel like I am wasting my time trying to "figure it out" on the fly 
+/* I need more time and practice with that, and I will go back to the morning exercise 
+/* where Flexbox was first introduced.  I will go over the CSS Flexbox exercises that Brian 
+/* recommended.  Then I will get back to this task.  So, as of right now, I would like to ask for an 
+extension on this homework item. */
+
+.maindiv {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 45%;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+aside {
+  background-color: white;
+  width: 20%;
+  margin: auto;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  color: black;
+}
+
+footer img {
+  display: inline;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: center;
+}
+
+nav img {
+  margin: 10px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item {
+  margin: auto;
+}
